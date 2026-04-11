@@ -25,58 +25,74 @@
 
     <main>
       <section>
-        <div>
-          <img src="../assets/img/poster-1.png" alt="Póster" />
-        </div>
-        <div>
+        <div class="pelicula">
           <div>
-            <h1>Título</h1>
-            <h2>Lorem ipsum, dolor sit.</h2>
+            <img src="../assets/img/poster-1.png" alt="Póster" />
           </div>
-          <div>
-            <h3>Sinopsis</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              ullam ipsum corporis quidem, assumenda magni officia recusandae.
-              Tenetur voluptatem architecto, dolores eius, deleniti quam
-              voluptatibus laboriosam ut recusandae animi quisquam!
-            </p>
-          </div>
-          <div>
-            <h3>Duración</h3>
-            <p>155 minutos</p>
-          </div>
+          <div class="content">
+            <div>
+              <h1>Título</h1>
+              <h2>Lorem ipsum, dolor sit.</h2>
+            </div>
+            <div>
+              <h3>Sinopsis</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                ullam ipsum corporis quidem, assumenda magni officia recusandae.
+                Tenetur voluptatem architecto, dolores eius, deleniti quam
+                voluptatibus laboriosam ut recusandae animi quisquam!
+              </p>
+            </div>
+            <div>
+              <h3>Duración</h3>
+              <p>155 minutos</p>
+            </div>
 
-          <div>
-            <h3>Género</h3>
-            <p>Ciencia ficción</p>
-          </div>
+            <div>
+              <h3>Género</h3>
+              <p>Ciencia ficción</p>
+            </div>
 
-          <div>
-            <h3>Director</h3>
-            <p>John Doe</p>
-          </div>
+            <div>
+              <h3>Director</h3>
+              <p>John Doe</p>
+            </div>
 
-          <div>
-            <h3>Clasificación</h3>
-            <p>+13</p>
+            <div>
+              <h3>Clasificación</h3>
+              <p>+13</p>
+            </div>
+            <div>
+              <h3>Horarios:</h3>
+              <p>16:00</p>
+              <p>19:00</p>
+              <p>22:00</p>
+            </div>
+            <div class="punt">
+              <h3>
+                <label for="puntuacion">Puntuación:</label>
+                <select id="puntuacion">
+                  <option value="1">★☆☆☆☆</option>
+                  <option value="2">★★☆☆☆</option>
+                  <option value="3">★★★☆☆</option>
+                  <option value="4">★★★★☆</option>
+                  <option value="5">★★★★★</option>
+                </select>
+              </h3>
+              <br />
+              <br />
+            </div>
+            <a
+              id="entradas"
+              href="#"
+              onclick="
+                alert(
+                  'Lo sentimos, en este momento no funciona nuestro sistema',
+                )
+              "
+              >Comprar entradas</a
+            >
           </div>
-          <div>
-            <h3>Horarios:</h3>
-            <p>16:00</p>
-            <p>19:00</p>
-            <p>22:00</p>
-          </div>
-          <div>
-            <p>Puntuación: ★★★★☆</p>
-          </div>
-          <a
-            href="#"
-            onclick="
-              alert('Lo sentimos, en este momento no funciona nuestro sistema')
-            "
-            >Comprar entradas</a
-          >
         </div>
       </section>
     </main>

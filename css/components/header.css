@@ -1,0 +1,15 @@
+header {
+    display: grid;
+    align-items: center;
+    background-color: var(--color-superficie);
+}
+
+header h1 {
+    font-size: 48px;
+    color: var(--color-texto);
+}
+
+header img {
+    display: inline-block;
+    vertical-align: middle;
+}

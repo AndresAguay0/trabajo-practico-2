@@ -19,7 +19,7 @@ body {
 }
 
 /* ESTRENOS */
-/* #region */
+/*#region*/
 #estrenos {
   background-color: var(--color-fondo);
 }
@@ -33,4 +33,31 @@ body {
   justify-self: center;
   margin: 0px;
 }
-/* #endregion */
+/*#endregion*/
+
+/* LOGIN */
+/*#region*/
+.login {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--color-texto);
+}
+
+.login div {
+  justify-self: center;
+  margin: 10px;
+}
+
+.login p {
+  color: var(--color-texto-suave);
+}
+
+.login a {
+  text-decoration: none;
+  color: var(--color-texto);
+}
+
+.login a:hover {
+  color: var(--color-secundario);
+}

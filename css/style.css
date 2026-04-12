@@ -1,5 +1,6 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
 @import url(./components/footer.css);
+@import url(./components/nav.css);
 
 /* Paleta 1: */
 :root {

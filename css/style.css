@@ -1,8 +1,10 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
+@import url("./components/card-horizontal.css");
 @import url(./components/footer.css);
 @import url(./components/nav.css);
 @import url(./components/header.css);
 @import url(./components/grids.css);
+
 
 /* Paleta 1: */
 :root {
@@ -13,6 +15,40 @@
   --color-texto: #f8fafc;
   --color-texto-suave: #94a3b8;
 }
+
+/*proximos estrenos*/
+#proximos-estrenos {
+  padding: 20px;
+  background-color: var(--color-fondo);
+}
+
+.titulo-seccion {
+  color: var(--color-primario);
+  font-size: 48px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-contenido h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--color-texto)
+}
+
+.card-contenido p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--color-texto-suave)
+}
+/*termina proximos estrenos*/
 
 body {
   margin: 0;

@@ -1,0 +1,6 @@
+footer {
+    display: grid;
+    text-align: center;
+    background-color: var(--color-superficie);
+    color: var(--color-texto-suave)
+}

@@ -1,7 +1,10 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
 @import url("./components/card-horizontal.css");
+@import url(./components/footer.css);
+@import url(./components/nav.css);
+@import url(./components/header.css);
+@import url(./components/grids.css);
 
-/*Paletas de colores que pueden usar:*/
 
 /* Paleta 1: */
 :root {
@@ -46,3 +49,52 @@
   color: var(--color-texto-suave)
 }
 /*termina proximos estrenos*/
+
+body {
+  margin: 0;
+}
+
+/* ESTRENOS */
+/*#region*/
+#estrenos {
+  background-color: var(--color-fondo);
+}
+
+#estrenos main {
+  margin: 10px;
+}
+
+#estrenos h2 {
+  color: var(--color-secundario);
+  justify-self: center;
+  margin: 0px;
+}
+/*#endregion*/
+
+/* LOGIN */
+/*#region*/
+.login {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--color-texto);
+}
+
+.login div {
+  justify-self: center;
+  margin: 10px;
+}
+
+.login p {
+  color: var(--color-texto-suave);
+}
+
+.login a {
+  text-decoration: none;
+  color: var(--color-texto);
+}
+
+.login a:hover {
+  color: var(--color-secundario);
+}
+/*#endregion*/

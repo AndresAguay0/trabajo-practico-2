@@ -3,18 +3,42 @@
     grid-auto-columns: 200px;
     grid-auto-rows: 300px;
     grid-template-areas: 
-    "box-1 box-2 box-3 box-4 box-5 box-6";
-    
+    "box-1 box-2 box-3 box-4 box-5 box-6";  
 
-    justify-items: center;
-    align-items: center;
     justify-content: center;
-    align-content: center;
+    margin: 10px;
+    gap: 10px;
 }
 
 .item-e {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color-superficie);
-    justify-items: center;
     height: 300px;
     width: 200px;
+    border-radius: 10px;
+}
+
+.item-e img {
+    height: auto;
+    border-radius: 8px;
+}
+
+.item-e h3 {
+    color: var(--color-texto);
+}
+
+.item-e p {
+    color: var(--color-texto-suave);
+}
+
+.item-e a {
+    color: var(--color-texto-suave)
+}
+
+.item-e a:hover {
+    color: var(--color-secundario)
 }

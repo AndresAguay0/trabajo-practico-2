@@ -1,7 +1,6 @@
 header {
-    display: grid;
-    align-items: center;
     background-color: var(--color-superficie);
+    border-bottom: 5px solid var(--color-secundario);
 }
 
 header h1 {
@@ -10,6 +9,23 @@ header h1 {
 }
 
 header img {
+    border-radius: 100%;
     display: inline-block;
     vertical-align: middle;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 380px;
+    grid-template-rows: 100px 20px;
+
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.item-header {
+    display: flex;
+    justify-self: center;
+    gap: 10px;
 }

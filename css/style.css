@@ -14,12 +14,12 @@
 }
 
 /*proximos estrenos*/
-main {
+#proximos-estrenos {
   padding: 20px;
   background-color: var(--color-fondo);
 }
 
-div h1 {
+.titulo-seccion {
   color: var(--color-primario);
   font-size: 48px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

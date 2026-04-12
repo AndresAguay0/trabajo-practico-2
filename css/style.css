@@ -13,3 +13,15 @@
   --color-texto: #f8fafc;
   --color-texto-suave: #94a3b8;
 }
+
+/* ESTRENOS */
+/* #region */
+#estrenos {
+  background-color: var(--color-fondo);
+}
+
+#estrenos h2 {
+  color: var(--color-texto);
+  justify-self: center;
+}
+/* #endregion */

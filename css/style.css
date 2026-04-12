@@ -4,6 +4,10 @@
 @import url(./components/nav.css);
 @import url(./components/header.css);
 @import url(./components/grids.css);
+@import url(./components/footer.css);
+@import url(./components/nav.css);
+@import url(./components/header.css);
+@import url(./components/grids.css);
 
 
 /* Paleta 1: */
@@ -24,7 +28,7 @@
 
 .titulo-seccion {
   color: var(--color-primario);
-  font-size: 48px;
+  font-size: 24px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 20px;
 }
@@ -53,16 +57,6 @@
 body {
   margin: 0;
 }
-
-/* Paleta 3: */
-/*:root {
-  --color-fondo: #141414;
-  --color-superficie: #1f1f1f;
-  --color-primario: #e50914;
-  --color-secundario: #00b4d8;
-  --color-texto: #ffffff;
-  --color-texto-suave: #b3b3b3;
-}*/
 
 /*Estilos detalle.html*/
 #borde {

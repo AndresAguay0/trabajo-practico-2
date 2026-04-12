@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-auto-columns: 200px;
+    grid-auto-rows: 300px;
+    grid-template-areas: 
+    "box-1 box-2 box-3"
+    "box-4 box-5 box-6";
+
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    height: 250px;
+    width: 150px;
+}

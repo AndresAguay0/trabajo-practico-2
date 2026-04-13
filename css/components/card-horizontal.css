@@ -5,7 +5,7 @@
   background: var(--color-superficie);
   padding: 20px;
   border-radius: 1rem;
-  border: 3px solid var(--color-secundario);
+  border: 3px solid var(--color-primario);
 }
 .card-horizontal img {
   width: 150px;

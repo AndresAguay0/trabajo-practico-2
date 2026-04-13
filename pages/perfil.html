@@ -10,52 +10,59 @@
   </head>
 
   <body>
-    <header>
-      <div>
+    <header class="grid-header">
+      <div class="item-header">
         <h1>Cine Aurora</h1>
         <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
       </div>
-      <div>
+      <div class="item-header">
         <nav>
           <a href="../index.html">Inicio</a>
-          <a href="../pages/estrenos.html">Próximos estrenos</a>
+          <a href="./estrenos.html">Próximos estrenos</a>
           <a href="../index.html">Volver</a>
         </nav>
       </div>
     </header>
 
-    <main>
-      <h1>Panel de usuario</h1>
-      <section>
-        <div>
-          <img
-            src="../assets/img/perfil-placeholder.png"
-            alt="Foto de perfil"
-          />
-          <h2>Hola, John Doe 👋📽️!</h2>
-        </div>
-        <div>
-          <p>Nombre completo: John Doe</p>
-          <p>Email: usuario@example.com</p>
-          <p>Fecha de nacimiento: dd/mm/yyyy</p>
-          <p>Contraseña: ********</p>
-          <p>Miembro desde: 2026</p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <div>
-            <h3>Películas ya vistas</h3>
+    <main id="estrenos">
+        <h2>Panel de usuario</h2>
+        <section class="card-container2">
+
+          <div class="card-vertical">
+            <div>
+              <div>
+                <img
+                  src="../assets/img/perfil-placeholder.png"
+                  alt="Foto de perfil"
+                />
+              </div>
+              <h2>Hola, John Doe 👋📽️!</h2>
+            </div>
+            <div>
+              <p>Nombre completo: John Doe</p>
+              <p>Email: usuario@example.com</p>
+              <p>Fecha de nacimiento: dd/mm/yyyy</p>
+              <p>Contraseña: ********</p>
+              <p>Miembro desde: 2026</p>
+            </div>
+
           </div>
-          <div>
-            <ul>
-              <li>🎬 Estreno A - Vista el 10/03</li>
-              <li>🎬 Estreno B - Vista el 15/03</li>
-            </ul>
+        </section>
+        <section class="card-container2">
+          <div class="card-vertical">
+            <div>
+              <h3>Películas ya vistas</h3>
+            </div>
+            <div>
+              <ul>
+                <li>🎬 Estreno A - Vista el 10/03</li>
+                <li>🎬 Estreno B - Vista el 15/03</li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
     </main>
+  
 
     <footer>
       <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>

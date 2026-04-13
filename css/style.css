@@ -8,6 +8,7 @@
 @import url(./components/nav.css);
 @import url(./components/header.css);
 @import url(./components/grids.css);
+@import url(./components/button.css);
 
 
 /* Paleta 1: */
@@ -167,5 +168,28 @@ body {
 
 .login a:hover {
   color: var(--color-secundario);
+}
+/*#endregion*/
+
+/* REGISTRO */
+/*#region*/
+.registro {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--color-texto)
+}
+
+.registro div {
+  justify-self: center;
+  margin: 8px;
+}
+
+.registro h3 {
+  color: var(--color-secundario);
+}
+
+.registro p{
+  color: var(--color-texto-suave);
 }
 /*#endregion*/

@@ -34,7 +34,7 @@ body {
 }
 
 .titulo-seccion {
-  color: var(--color-primario);
+  color: var(--color-secundario);
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -61,12 +61,11 @@ body {
 /*Estilos detalle.html*/
 /*#region*/
 #borde {
-  border: 7px solid var(--color-secundario);
+  border: 7px solid var(--color-primario);
   border-radius: 8px;
 }
 
 .pelicula {
-  background-color: var(--color-superficie);
   padding: 20px;
   border-radius: 8px;
   display: flex;
@@ -76,7 +75,7 @@ body {
 }
 
 .pelicula h1 {
-  color: var(--color-primario);
+  color: var(--color-secundario);
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 0;
@@ -137,9 +136,9 @@ body {
 }
 
 #estrenos h2 {
-  color: var(--color-primario);
+  color: var(--color-secundario);
   justify-self: center;
-  margin: 0px;
+  margin: 10px;
 }
 /*#endregion*/
 

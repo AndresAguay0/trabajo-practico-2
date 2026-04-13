@@ -20,7 +20,12 @@
   --color-texto-suave: #94a3b8;
 }
 
+body {
+  margin: 0;
+}
+
 /*proximos estrenos*/
+/*#region*/
 #proximos-estrenos {
   padding: 20px;
   background-color: var(--color-fondo);
@@ -52,13 +57,10 @@
   font-weight: normal;
   color: var(--color-texto-suave)
 }
-/*termina proximos estrenos*/
-
-body {
-  margin: 0;
-}
+/*#endregion*/
 
 /*Estilos detalle.html*/
+/*#region*/
 #borde {
   border: 7px solid var(--color-secundario);
   border-radius: 8px;
@@ -127,7 +129,7 @@ body {
     height: auto;
   }
 }
-/*end estilos detalle.html*/
+/*#endregion*/
 
 /* ESTRENOS */
 /*#region*/

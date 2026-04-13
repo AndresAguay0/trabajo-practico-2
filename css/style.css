@@ -20,7 +20,12 @@
   --color-texto-suave: #94a3b8;
 }
 
+body {
+  margin: 0;
+}
+
 /*proximos estrenos*/
+/*#region*/
 #proximos-estrenos {
   padding: 20px;
   background-color: var(--color-fondo);
@@ -52,13 +57,10 @@
   font-weight: normal;
   color: var(--color-texto-suave)
 }
-/*termina proximos estrenos*/
-
-body {
-  margin: 0;
-}
+/*#endregion*/
 
 /*Estilos detalle.html*/
+/*#region*/
 #borde {
   border: 7px solid var(--color-secundario);
   border-radius: 8px;
@@ -127,12 +129,13 @@ body {
     height: auto;
   }
 }
-/*end estilos detalle.html*/
+/*#endregion*/
 
 /* ESTRENOS */
 /*#region*/
 #estrenos {
   background-color: var(--color-fondo);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #estrenos main {
@@ -140,7 +143,7 @@ body {
 }
 
 #estrenos h2 {
-  color: var(--color-secundario);
+  color: var(--color-primario);
   justify-self: center;
   margin: 0px;
 }

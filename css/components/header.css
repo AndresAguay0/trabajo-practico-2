@@ -16,7 +16,7 @@ header img {
 
 .grid-header {
     display: grid;
-    grid-template-columns: 380px;
+    grid-template-columns: 400px;
     grid-template-rows: 100px 20px;
 
     justify-content: center;

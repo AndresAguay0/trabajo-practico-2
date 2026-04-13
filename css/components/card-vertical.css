@@ -1,8 +1,29 @@
 .card-vertical {
-  display: flex;
-  align-items: center;
-  background: var(--color-superficie);
-  padding: 20px;
-  border-radius: 1rem;
-  border: 3px solid var(--color-secundario);
+    display: flex;
+    flex-direction: column;
+    background: var(--color-superficie);
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 3px solid var(--color-secundario);
+    color: var(--color-texto);
+    align-items: center;
+
+}
+
+.card-vertical img {
+    width: 100px;
+    height: auto;
+    border-radius: 90%;
+    margin: 10px;
+    
+}
+
+.card-vertical div{
+    justify-self: center;
+}
+
+.card-vertical li{
+    color: var(--color-texto-suave);
 }

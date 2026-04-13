@@ -22,19 +22,19 @@
 
 body {
   margin: 0;
+  background-color: var(--color-fondo);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 /*proximos estrenos*/
 /*#region*/
 #proximos-estrenos {
   padding: 20px;
-  background-color: var(--color-fondo);
 }
 
 .titulo-seccion {
   color: var(--color-primario);
   font-size: 24px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 20px;
 }
 
@@ -45,14 +45,12 @@ body {
 }
 
 .card-contenido h4 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: var(--color-texto)
 }
 
 .card-contenido p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: normal;
   color: var(--color-texto-suave)
@@ -73,13 +71,11 @@ body {
   display: flex;
   gap: 30px;
   align-items: flex-start;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color-texto-suave);
 }
 
 .pelicula h1 {
   color: var(--color-primario);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 0;
@@ -88,7 +84,6 @@ body {
 
 .pelicula h3 {
   color: var(--color-secundario);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   margin: 0;
 }
@@ -104,7 +99,6 @@ body {
 #entradas {
   color: #0ca5a5;
   font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
 }
 
@@ -135,7 +129,6 @@ body {
 /*#region*/
 #estrenos {
   background-color: var(--color-fondo);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #estrenos main {

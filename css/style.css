@@ -46,6 +46,7 @@ body {
   gap: 1rem;
 }
 
+
 .card-contenido h4 {
   font-size: 36px;
   font-weight: normal;
@@ -193,3 +194,8 @@ body {
   color: var(--color-texto-suave);
 }
 /*#endregion*/
+
+.card-container2{
+    justify-items: center;
+
+}

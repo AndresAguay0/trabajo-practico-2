@@ -1,33 +1,195 @@
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
+@import url("./components/card-horizontal.css");
+@import url(./components/footer.css);
+@import url(./components/nav.css);
+@import url(./components/header.css);
+@import url(./components/grids.css);
+@import url(./components/footer.css);
+@import url(./components/nav.css);
+@import url(./components/header.css);
+@import url(./components/grids.css);
+@import url(./components/button.css);
 
-/* Paletas de colores que pueden usar: */
 
 /* Paleta 1: */
-/*:root {
+:root {
   --color-fondo: #0f172a;
   --color-superficie: #1e293b;
   --color-primario: #e11d48;
   --color-secundario: #f59e0b;
   --color-texto: #f8fafc;
   --color-texto-suave: #94a3b8;
-}*/
+}
 
-/* Paleta 2: */
-/*:root {
-  --color-fondo: #fff8e7;
-  --color-superficie: #ffe8a3;
-  --color-primario: #e63946;
-  --color-secundario: #ffb703;
-  --color-texto: #1d3557;
-  --color-texto-suave: #457b9d;
-}*/
+body {
+  margin: 0;
+  background-color: var(--color-fondo);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
-/* Paleta 3: */
-/*:root {
-  --color-fondo: #141414;
-  --color-superficie: #1f1f1f;
-  --color-primario: #e50914;
-  --color-secundario: #00b4d8;
-  --color-texto: #ffffff;
-  --color-texto-suave: #b3b3b3;
-}*/
+/*proximos estrenos*/
+/*#region*/
+#proximos-estrenos {
+  padding: 20px;
+}
+
+.titulo-seccion {
+  color: var(--color-primario);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-contenido h4 {
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--color-texto)
+}
+
+.card-contenido p {
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--color-texto-suave)
+}
+/*#endregion*/
+
+/*Estilos detalle.html*/
+/*#region*/
+#borde {
+  border: 7px solid var(--color-secundario);
+  border-radius: 8px;
+}
+
+.pelicula {
+  background-color: var(--color-superficie);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  color: var(--color-texto-suave);
+}
+
+.pelicula h1 {
+  color: var(--color-primario);
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  gap: 10px;
+}
+
+.pelicula h3 {
+  color: var(--color-secundario);
+  font-size: 20px;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#entradas {
+  color: #0ca5a5;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#entradas:hover::after {
+  content: " (¡Haz clic aquí!)";
+  color: var(--color-secundario);
+  display: inline;
+  width: 100%;
+  height: 2px;
+}
+
+@media (max-width: 767px) {
+  .pelicula {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*#endregion*/
+
+/* ESTRENOS */
+/*#region*/
+#estrenos {
+  background-color: var(--color-fondo);
+}
+
+#estrenos main {
+  margin: 10px;
+}
+
+#estrenos h2 {
+  color: var(--color-primario);
+  justify-self: center;
+  margin: 0px;
+}
+/*#endregion*/
+
+/* LOGIN */
+/*#region*/
+.login {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--color-texto);
+}
+
+.login div {
+  justify-self: center;
+  margin: 10px;
+}
+
+.login p {
+  color: var(--color-texto-suave);
+}
+
+.login a {
+  text-decoration: none;
+  color: var(--color-texto);
+}
+
+.login a:hover {
+  color: var(--color-secundario);
+}
+/*#endregion*/
+
+/* REGISTRO */
+/*#region*/
+.registro {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--color-texto)
+}
+
+.registro div {
+  justify-self: center;
+  margin: 8px;
+}
+
+.registro h3 {
+  color: var(--color-secundario);
+}
+
+.registro p{
+  color: var(--color-texto-suave);
+}
+/*#endregion*/

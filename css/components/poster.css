@@ -4,3 +4,8 @@ img {
   width: 100px;
   height: 100px;
 }
+
+#detalleImg {
+  width: 350px;
+  height: auto;
+}
